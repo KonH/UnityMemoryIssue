@@ -2,9 +2,12 @@
 
 When moving between scenes and instantiate large count of prefabs, memory incresed uncontrollably and with noticable spikes, despite of manual cleanup (GC.Collect/Resources.UnloadUnusedAssets). You can find simple repro logics in [Test.cs](https://github.com/KonH/UnityMemoryIssue/blob/master/Assets/Test.cs). 
 
+Issue reproduced on all current stable versions, but not reproduced on 2018.2.0b10.
+
 ## Details:
 
-- **Unity versions:** Unity 2017.3.1p1, 2017.4.6f1, 2018.1.6f1
+- **Affected Unity versions:** Unity 2017.3.1p1, 2017.4.6f1, 2018.1.6f1
+- **Not affected Unity versions::** 2018.2.0b10
 - **Platform:** iOS
 - **Affected devices:** iPhone X (iOS 11.3), iPad Air 2 (iOS 11.2)
 
