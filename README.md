@@ -4,7 +4,7 @@ When moving between scenes and instantiate large count of prefabs, memory incres
 
 ## Details:
 
-- **Unity versions:** Unity 2017.3.1p1, 2017.4.6f1
+- **Unity versions:** Unity 2017.3.1p1, 2017.4.6f1, 2018.1.6f1
 - **Platform:** iOS
 - **Affected devices:** iPhone X (iOS 11.3), iPad Air 2 (iOS 11.2)
 
